@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="chat-container">
+
+      <!-- User Message -->
+      <div class="user-chat-box">
+        <img src="user_image.jpg" alt="User Avatar" id="userImage" width="30">
+        <div class="user-chat-area">
+          <!--Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Delectus soluta et nesciunt perspiciatis facilis sapiente omnis,
+          velit quis repellendus eius eaque, magnam a doloribus ut harum dolorem quo porro.-->
+        </div>
+      </div>
+
+      <!-- AI Message -->
+      <div class="ai-chat-box">
+        <img src="ai_image.jpg" alt="AI Avatar" id="aiImage" width="50">
+        <div class="ai-chat-area">
+          Hello ! how can i help you today
+          <!-- <img src="loading.webp" alt="" class="load" width="50">-->
+        </div>
+     
+      </div>
+    </div>
+
+    <div class="prompt-area">
+     <input type="text" id="prompt" placeholder="Message...">
+    <button id="image"><img src="img.svg" alt="">
+      <input type="file" accept="images/*" hidden></button>
+    <button id="submit"><img src="submit.svg" alt=""></button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
